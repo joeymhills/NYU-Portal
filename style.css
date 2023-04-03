@@ -53,10 +53,6 @@ align-content: center;
 }
     
 .footer {
-min-height: 0em;
+min-height: 7em;
 background-color: #57068C;
-position: fixed;
-bottom:0;
-left:0;
-right:0;
 }
