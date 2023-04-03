@@ -4,6 +4,8 @@
 .page {
 font-family: "Gotham A","Gotham B", sans-serif;
 font-weight: 400;
+margin:0;
+display:block;
 }
     
 .header {
@@ -13,8 +15,7 @@ padding:0;
 background-color: #57068C;
 display: flex;
 justify-content: center;
-align-items: stretch;
-align-content: center;
+align-items:center;
 }
     
 .header-logo {
@@ -50,9 +51,9 @@ align-content: center;
 .caspio-wrap {
 display: flex;
 justify-content: center;
-align-items: center;
-align-content: center;
-min-height:200
+align-items: stretch;
+
+
 }
     
 .footer {
