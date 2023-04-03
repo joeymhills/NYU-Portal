@@ -1,0 +1,63 @@
+/*fonts: "Gotham A","Gotham B", sans-serif; */
+/*color codes: Darkish purple: #57068C, light-purple: #8900E1, super light-purple: #EDE5ED, Dark Purple: #220337*/
+
+.page {
+font-family: "Gotham A","Gotham B", sans-serif;
+font-weight: 400;
+}
+    
+.header {
+min-height: 7em;
+background-color: #57068C;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+    
+.header-logo {
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+max-height: 7em;
+margin:0;
+border:0;
+padding:0;
+}
+    
+.header-button {
+background-color:#57068C;
+border-radius: 15px;
+border:0;
+transition-duration: .5s;    
+}
+    
+.header-button:hover {
+opacity: 65%;
+transition-duration: .5s;
+}
+.body {
+color:#220337;
+font-size: larger;
+display: flex;
+justify-content: center;
+align-items: top;
+align-content: center;    
+}
+.caspio-wrap {
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+max-width: 1020px;
+}
+    
+.footer {
+min-height: 0em;
+background-color: #57068C;
+position: fixed;
+bottom:0;
+left:0;
+right:0;
+}
