@@ -8,6 +8,8 @@ font-weight: 400;
     
 .header {
 min-height: 7em;
+margin:0;
+padding:0;
 background-color: #57068C;
 display: flex;
 justify-content: center;
@@ -50,6 +52,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 align-content: center;
+min-height:200
 }
     
 .footer {
