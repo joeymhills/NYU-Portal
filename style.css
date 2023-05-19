@@ -7,12 +7,14 @@ font-weight: 400;
 margin:0;
 padding:0;
 display:block;
+width:100%
 }
     
 .header {
-min-height: 7em;
+min-height: 6em;
 margin:0;
 padding:0;
+width:100%;
 background-color: #57068C;
 display: flex;
 justify-content: center;
@@ -24,22 +26,22 @@ display: flex;
 justify-content: center;
 align-items: center;
 align-content: center;
-max-height: 7em;
+max-height: 6em;
 margin:0;
 border:0;
 padding:0;
+cursor:pointer;
 }
     
 .header-button {
 background-color:#57068C;
 border-radius: 15px;
 border:0;
-transition-duration: .5s;    
+cursor:pointer;
 }
     
 .header-button:hover {
 opacity: 65%;
-transition-duration: .5s;
 }
 .body {
 color:#220337;
@@ -48,16 +50,21 @@ display: flex;
 justify-content: center;
 align-items: top;
 align-content: center;    
+width:100%;
+}
+.body h2 {
+    font-weight: 400;
+    font-size: 50px
 }
 .caspio-wrap {
 display: flex;
 justify-content: center;
-align-items: stretch;
+width:100%;
 
 
 }
     
 .footer {
-min-height: 7em;
+min-height: 6em;
 background-color: #57068C;
 }
