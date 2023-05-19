@@ -48,13 +48,13 @@ color:#220337;
 font-size: larger;
 display: flex;
 justify-content: center;
-align-items: top;
 align-content: center;    
 width:100%;
 }
 .body h2 {
     font-weight: 400;
-    font-size: 50px
+    font-size: 50px;
+    text-align:center;
 }
 .caspio-wrap {
 display: flex;
