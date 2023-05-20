@@ -69,6 +69,14 @@ background-color: white;
     
 .footer {
 position: fixed;
-min-height: 6em;
+min-height: 4.5em;
 background-color: #57068C;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footer-text {
+    font-size: 15px;
+    font-weight: 300;
 }
