@@ -7,7 +7,9 @@ font-weight: 400;
 margin:0;
 padding:0;
 display:block;
-width:100%
+width:100%;
+height:100vh;
+background-color: #57068C;
 }
     
 .header {
@@ -60,12 +62,13 @@ width:100%;
 display: flex;
 justify-content: center;
 width:100%;
-height: calc(100vh - 9em)
+background-color: white;
 
 
 }
     
 .footer {
+position: fixed;
 min-height: 6em;
 background-color: #57068C;
 }
