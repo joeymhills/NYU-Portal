@@ -67,7 +67,12 @@ button h2 {
 font-weight: 300;
 font-size: 25px;
 text-align:center;
-cursor: pointer; 
+cursor:pointer; 
+}
+
+button {
+    cursor: pointer;
+    
 }
 
 .caspio-wrap {
@@ -82,12 +87,10 @@ z-index:3;
 
 #form {
     visibility: hidden;
-    transition: 1s;
 }
 
 #form2 {
     visibility: visible;
-    transition: 1s;
 }
     
 .footer {
