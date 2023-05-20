@@ -71,6 +71,14 @@ width:100%;
 z-index:3;
 
 }
+
+#form {
+    visibility: hidden;
+}
+
+#form2 {
+    visibility: visible;
+}
     
 .footer {
 width:100%;
