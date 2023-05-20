@@ -72,8 +72,6 @@ z-index:3;
 }
     
 .footer {
-position: fixed;
-bottom:0em;
 width:100%;
 min-height: 4em;
 background-color: #57068C;
