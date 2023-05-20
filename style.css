@@ -62,6 +62,14 @@ background-color: white;
     font-size: 45px;
     text-align:center;
 }
+
+button h2 {
+font-weight: 300;
+font-size: 25px;
+text-align:center;
+cursor: pointer; 
+}
+
 .caspio-wrap {
 display: flex;
 flex-direction: column;
@@ -74,10 +82,12 @@ z-index:3;
 
 #form {
     visibility: hidden;
+    transition: 1s;
 }
 
 #form2 {
     visibility: visible;
+    transition: 1s;
 }
     
 .footer {
