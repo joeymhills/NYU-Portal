@@ -2,7 +2,7 @@
 /*color codes: Darkish purple: #57068C, light-purple: #8900E1, super light-purple: #EDE5ED, Dark Purple: #220337*/
 
 .page {
-font-family: "Gotham A","Gotham B", sans-serif;
+font-family: "Arial";
 font-weight: 400;
 margin:0;
 padding:0;
@@ -63,15 +63,24 @@ background-color: white;
     text-align:center;
 }
 
-button h2 {
+.create-button a {
 font-weight: 300;
-font-size: 25px;
+font-size: 15px;
 text-align:center;
 cursor:pointer; 
 }
 
-button {
+.create-button {
     cursor: pointer;
+    width: 180px;
+    height: 40px;
+    color:white;
+    background-color: #57068C;
+    border-radius: 4px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
     
 }
 
