@@ -109,6 +109,8 @@ background-color: #57068C;
 display: flex;
 justify-content: center;
 align-items: center;
+position: absolute;
+bottom: 0;
 }
 
 .footer-text {
